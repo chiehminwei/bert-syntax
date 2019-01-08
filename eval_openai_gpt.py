@@ -38,11 +38,8 @@ def get_probs_for_words(sent, w1, w2):
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
     w1_ids = tokenizer.convert_tokens_to_ids(tok_w1)
     w2_ids = tokenizer.convert_tokens_to_ids(tok_w2)
-    # Filter answers based on BERT wordpieces to align with BERT
-    try:
-        word_ids=bert_tokenizer.convert_tokens_to_ids([w1,w2])
-    except KeyError:
-        print("skipping",w1,w2,"bad wins")
+    if len(input_ids) == 0:
+        print("skipping",pre,w1,w2,"empty beggingin")
         return None
 
     # Compute the score for w1
