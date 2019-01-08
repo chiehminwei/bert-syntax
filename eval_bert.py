@@ -12,6 +12,7 @@ print("using model:",model_name,file=sys.stderr)
 bert=BertForMaskedLM.from_pretrained(model_name)
 tokenizer=tokenization.BertTokenizer.from_pretrained(model_name)
 bert.eval()
+bert.to(device)
 
 def get_probs_for_words(sent,w1,w2):
     pre,target,post=sent.split('***')
@@ -30,7 +31,8 @@ def get_probs_for_words(sent,w1,w2):
         print("skipping",w1,w2,"bad wins")
         return None
     tens=torch.LongTensor(input_ids).unsqueeze(0).to(device)
-    res=bert(tens)[0,target_idx]
+    with torch.no_grad():
+        res=bert(tens)[0,target_idx]
     #res=torch.nn.functional.softmax(res,-1)
     scores = res[word_ids]
     return [float(x.item()) for x in scores]

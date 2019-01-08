@@ -7,11 +7,14 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 model_name = "openai-gpt"
 print("using model:", model_name, file=sys.stderr)
 model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
 tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
 model.eval()
+model.to(device)
 
 
 def get_probs_for_words(sent, w1, w2):
@@ -38,8 +41,9 @@ def get_probs_for_words(sent, w1, w2):
     score_w1 = 1
     for ids in w1_ids:
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
-        res = model(tens)
-        res = torch.nn.functional.softmax(res,-1)
+        with torch.no_grad():
+            res = model(tens)
+            res = torch.nn.functional.softmax(res,-1)
         score_w1 = score_w1 * res[0, -1, ids]
         add_tok.append(ids)
 
@@ -48,8 +52,9 @@ def get_probs_for_words(sent, w1, w2):
     score_w2 = 1
     for ids in w2_ids:
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
-        res = model(tens)
-        res = torch.nn.functional.softmax(res,-1)
+        with torch.no_grad():
+            res = model(tens)
+            res = torch.nn.functional.softmax(res,-1)
         score_w2 = score_w2 * res[0, -1, ids]
         add_tok.append(ids)
 
