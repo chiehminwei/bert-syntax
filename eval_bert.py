@@ -4,6 +4,8 @@ import torch
 import sys
 import csv
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 model_name = 'bert-large-uncased'
 if 'base' in sys.argv: model_name = 'bert-base-uncased'
 print("using model:",model_name,file=sys.stderr)
@@ -27,11 +29,11 @@ def get_probs_for_words(sent,w1,w2):
     except KeyError:
         print("skipping",w1,w2,"bad wins")
         return None
-    tens=torch.LongTensor(input_ids).unsqueeze(0)
+    tens=torch.LongTensor(input_ids).unsqueeze(0).to(device)
     res=bert(tens)[0,target_idx]
     #res=torch.nn.functional.softmax(res,-1)
     scores = res[word_ids]
-    return [float(x) for x in scores]
+    return [float(x.item()) for x in scores]
 
 from collections import Counter
 def load_marvin():

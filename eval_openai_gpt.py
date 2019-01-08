@@ -37,7 +37,7 @@ def get_probs_for_words(sent, w1, w2):
     add_tok = []
     score_w1 = 1
     for ids in w1_ids:
-        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0)
+        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         res = model(tens)
         res = torch.nn.functional.softmax(res,-1)
         score_w1 = score_w1 * res[0, -1, ids]
@@ -47,13 +47,13 @@ def get_probs_for_words(sent, w1, w2):
     add_tok = []
     score_w2 = 1
     for ids in w2_ids:
-        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0)
+        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         res = model(tens)
         res = torch.nn.functional.softmax(res,-1)
         score_w2 = score_w2 * res[0, -1, ids]
         add_tok.append(ids)
 
-    return [float(score_w1), float(score_w2)]
+    return [float(score_w1.item()), float(score_w2)]
 
 
 from collections import Counter
