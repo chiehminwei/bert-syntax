@@ -25,14 +25,13 @@ for title,fname in files:
 
 print("skipped:",nskipped,len(skipped),skipped)
 
-print("condition & base & large & count \\\\")
+print("condition & base & large & openai_gpt & count bert & count openai_gpt \\\\")
 for cond in conditions:
     rb = by_model['base'][cond]
     rl = by_model['large'][cond]
+    ro = by_model['openai_gpt'][cond]
     sb = "%.2f" % (rb['True']/(rb['True']+rb['False']))
     sl = "%.2f" % (rl['True']/(rl['True']+rl['False']))
-    print(" & ".join(map(str,[cond, sb, sl, sum(rb.values())])),"\\\\")
-
-    
-
+    so = "%.2f" % (ro['True']/(ro['True']+ro['False']))
+    print(" & ".join(map(str,[cond, sb, sl, so, sum(rb.values()), sum(ro.values())])),"\\\\")
 
