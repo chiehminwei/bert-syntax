@@ -1,5 +1,5 @@
 # coding=utf-8
-from pytorch_pretrained_bert import OpenAIGPTLMHeadModel, OpenAIGPTTokenizer
+from pytorch_pretrained_bert import OpenAIGPTLMHeadModel, OpenAIGPTTokenizer, BertTokenizer
 import torch
 import sys
 import csv
@@ -13,6 +13,7 @@ model_name = "openai-gpt"
 print("using model:", model_name, file=sys.stderr)
 model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
 tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
+bert_tokenizer=BertTokenizer.from_pretrained('bert-base-uncased')
 model.eval()
 model.to(device)
 
@@ -25,16 +26,24 @@ def get_probs_for_words(sent, w1, w2):
         target = tokenizer.tokenize(target)
     tokens = tokenizer.tokenize(pre)
     target_idx = len(tokens)
-    # print(target_idx)
-    # tokens += target + tokenizer.tokenize(post) + ["[SEP]"]
+
+    # Filter answers based on BERT wordpieces to align with BERT results
+    try:
+        word_ids=bert_tokenizer.convert_tokens_to_ids([w1,w2])
+    except KeyError:
+        print("skipping",w1,w2,"bad wins")
+        return None
+
     tok_w1, tok_w2 = tokenizer.tokenize(w1), tokenizer.tokenize(w2)
     input_ids = tokenizer.convert_tokens_to_ids(tokens)
     w1_ids = tokenizer.convert_tokens_to_ids(tok_w1)
     w2_ids = tokenizer.convert_tokens_to_ids(tok_w2)
-    # TODO: we should probably align with BERT wordpieces filtered answers
-    # if any(ids == 0 for ids in word_ids):
-    #     print("skipping", w1, w2, "bad wins")
-    #     return None
+    # Filter answers based on BERT wordpieces to align with BERT
+    try:
+        word_ids=bert_tokenizer.convert_tokens_to_ids([w1,w2])
+    except KeyError:
+        print("skipping",w1,w2,"bad wins")
+        return None
 
     # Compute the score for w1
     add_tok = []
