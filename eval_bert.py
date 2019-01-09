@@ -9,6 +9,10 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_name = 'bert-large-uncased'
 if 'base' in sys.argv: model_name = 'bert-base-uncased'
 print("using model:",model_name,file=sys.stderr)
+
+only_prefix = False
+if 'only_prefix' in sys.argv: only_prefix = True
+
 bert=BertForMaskedLM.from_pretrained(model_name)
 tokenizer=tokenization.BertTokenizer.from_pretrained(model_name)
 bert.eval()
@@ -23,7 +27,10 @@ def get_probs_for_words(sent,w1,w2):
     tokens=['[CLS]']+tokenizer.tokenize(pre)
     target_idx=len(tokens)
     #print(target_idx)
-    tokens+=target+tokenizer.tokenize(post)+['[SEP]']
+    tokens+=target
+    if not only_prefix:
+        tokens+=tokenizer.tokenize(post)
+    tokens+=['[SEP]']
     input_ids=tokenizer.convert_tokens_to_ids(tokens)
     try:
         word_ids=tokenizer.convert_tokens_to_ids([w1,w2])
