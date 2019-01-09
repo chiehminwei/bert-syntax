@@ -10,7 +10,7 @@ logging.basicConfig(level=logging.INFO)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model_name = "openai-gpt"
-print("using model:", model_name, file=sys.stderr)
+print("using model: {}".format(model_name), file=sys.stderr)
 
 split_words = True
 if 'no_split' in sys.argv:
