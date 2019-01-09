@@ -17,6 +17,11 @@ if 'no_split' in sys.argv:
     split_words = False
     print("We don't split words", file=sys.stderr)
 
+use_postfix = False
+if 'use_postfix' in sys.argv:
+    use_postfix = True
+    print("We compute probabilities over the entire sentence", file=sys.stderr)
+
 model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
 tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
 bert_tokenizer=BertTokenizer.from_pretrained('bert-base-uncased')
@@ -52,28 +57,35 @@ def get_probs_for_words(sent, w1, w2):
         print("skipping",pre,w1,w2,"splitted words")
         return None
 
+    if use_postfix:
+        # Add post focus tokens
+        end_tokens = tokenizer.tokenize(post)
+        end_ids = tokenizer.convert_tokens_to_ids(end_tokens)
+        w1_ids += end_ids
+        w2_ids += end_ids
+
     # Compute the score for w1
     add_tok = []
-    score_w1 = 1
+    score_w1 = 0
     for ids in w1_ids:
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         with torch.no_grad():
             res = model(tens)
             res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
-            res = torch.nn.functional.softmax(res,dim=-1)
-        score_w1 = score_w1 * res[0, -1, ids]
+            res = torch.nn.functional.log_softmax(res, dim=-1)
+        score_w1 = score_w1 + res[0, -1, ids]
         add_tok.append(ids)
 
     # Compute the score for w2
     add_tok = []
-    score_w2 = 1
+    score_w2 = 0
     for ids in w2_ids:
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         with torch.no_grad():
             res = model(tens)
             res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
-            res = torch.nn.functional.softmax(res,dim=-1)
-        score_w2 = score_w2 * res[0, -1, ids]
+            res = torch.nn.functional.log_softmax(res,dim=-1)
+        score_w2 = score_w2 + res[0, -1, ids]
         add_tok.append(ids)
 
     return [float(score_w1.item()), float(score_w2)]
