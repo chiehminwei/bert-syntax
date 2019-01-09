@@ -11,6 +11,11 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 model_name = "openai-gpt"
 print("using model:", model_name, file=sys.stderr)
+
+split_words = True
+if 'no_split' in sys.argv:
+    split_words = False
+
 model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
 tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
 bert_tokenizer=BertTokenizer.from_pretrained('bert-base-uncased')
@@ -40,6 +45,10 @@ def get_probs_for_words(sent, w1, w2):
     w2_ids = tokenizer.convert_tokens_to_ids(tok_w2)
     if len(input_ids) == 0:
         print("skipping",pre,w1,w2,"empty beggingin")
+        return None
+
+    if not split_words and (len(tok_w1) > 1 or len(tok_w2) > 1):
+        print("skipping",pre,w1,w2,"splitted words")
         return None
 
     # Compute the score for w1
