@@ -11,7 +11,9 @@ if 'base' in sys.argv: model_name = 'bert-base-uncased'
 print("using model:",model_name,file=sys.stderr)
 
 only_prefix = False
-if 'only_prefix' in sys.argv: only_prefix = True
+if 'only_prefix' in sys.argv:
+    only_prefix = True
+    print("We take only the prefix", file=sys.stderr)
 
 bert=BertForMaskedLM.from_pretrained(model_name)
 tokenizer=tokenization.BertTokenizer.from_pretrained(model_name)
