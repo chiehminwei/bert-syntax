@@ -15,6 +15,7 @@ print("using model:", model_name, file=sys.stderr)
 split_words = True
 if 'no_split' in sys.argv:
     split_words = False
+    print("We don't split words", file=sys.stderr)
 
 model = OpenAIGPTLMHeadModel.from_pretrained(model_name)
 tokenizer = OpenAIGPTTokenizer.from_pretrained(model_name)
