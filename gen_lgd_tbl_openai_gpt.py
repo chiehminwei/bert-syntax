@@ -30,6 +30,7 @@ for cond in conditions:
     rb = by_model['base'][cond]
     rl = by_model['large'][cond]
     ro = by_model['openai_gpt'][cond]
+    if sum(ro.values())==0: continue
     sb = "%.2f" % (rb['True']/(rb['True']+rb['False']))
     sl = "%.2f" % (rl['True']/(rl['True']+rl['False']))
     so = "%.2f" % (ro['True']/(ro['True']+ro['False']))
