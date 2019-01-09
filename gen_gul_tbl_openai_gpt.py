@@ -1,7 +1,11 @@
 import sys
 from collections import *
 
-files=[("base","results/gulordava_results_base.txt"),("large","results/gulordava_results_large.txt"), ("openai_gpt", "results/gulordava_results_openai_gpt.txt")]
+files=[("base","results/gulordava_results_base.txt"),("large","results/gulordava_results_large.txt")]
+if "no_split" in sys.argv:
+    files.append(("openai_gpt", "results/gulordava_results_openai_gpt_no_split.txt"))
+else:
+    files.append(("openai_gpt", "results/gulordava_results_openai_gpt.txt"))
 
 by_model={}
 conditions=set()

@@ -1,7 +1,11 @@
 import sys
 from collections import *
 
-files=[("base","results/marvin_results_base.txt"),("large","results/marvin_results_large.txt"),("openai_gpt", "results/marvin_results_openai_gpt.txt")]
+files=[("base","results/marvin_results_base.txt"),("large","results/marvin_results_large.txt")]
+if "no_split" in sys.argv:
+    files.append(("openai_gpt", "results/marvin_results_openai_gpt_no_split.txt"))
+else:
+    files.append(("openai_gpt", "results/marvin_results_openai_gpt.txt"))
 
 
 by_model={}

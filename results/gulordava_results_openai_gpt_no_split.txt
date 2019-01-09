@@ -1,4 +1,3 @@
-using model: openai-gpt
 True	0	represents	2.6258689445057826e-07	represent	2.0370665154700873e-08	b'an agreeable insight executed in fifty ***mask*** there add billion " weapons " in the abdul israelis , but underage commanders are slowly healthier than this .'
 skipping is/are
 skipping approves approve bad wins
