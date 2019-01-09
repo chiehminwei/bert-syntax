@@ -59,7 +59,8 @@ def get_probs_for_words(sent, w1, w2):
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         with torch.no_grad():
             res = model(tens)
-            res = torch.nn.functional.softmax(res,-1)
+            res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
+            res = torch.nn.functional.softmax(res,dim=-1)
         score_w1 = score_w1 * res[0, -1, ids]
         add_tok.append(ids)
 
@@ -70,7 +71,8 @@ def get_probs_for_words(sent, w1, w2):
         tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
         with torch.no_grad():
             res = model(tens)
-            res = torch.nn.functional.softmax(res,-1)
+            res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
+            res = torch.nn.functional.softmax(res,dim=-1)
         score_w2 = score_w2 * res[0, -1, ids]
         add_tok.append(ids)
 
