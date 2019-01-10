@@ -46,4 +46,3 @@ python gen_marvin_tbl.py
 python gen_lgd_tbl.py
 python gen_gul_tbl.py
 ```
-
