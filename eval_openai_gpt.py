@@ -4,6 +4,7 @@ import torch
 import sys
 import csv
 import logging
+import itertools
 
 logging.basicConfig(level=logging.INFO)
 
@@ -64,31 +65,37 @@ def get_probs_for_words(sent, w1, w2):
         w1_ids += end_ids
         w2_ids += end_ids
 
-    # Compute the score for w1
-    add_tok = []
+    # Compute the score for w1 and w2
+    add_tok_w1 = []
+    add_tok_w2 = []
     score_w1 = 0
-    for ids in w1_ids:
-        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
+    score_w2 = 0
+    for ids_w1, ids_w2 in itertools.zip_longest(w1_ids, w2_ids):
+        tens = torch.LongTensor([input_ids + add_tok_w1, input_ids + add_tok_w2]).to(device)
         with torch.no_grad():
             res = model(tens)
             res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
             res = torch.nn.functional.log_softmax(res, dim=-1)
-        score_w1 = score_w1 + res[0, -1, ids]
-        add_tok.append(ids)
+        if ids_w1 is not None:
+            score_w1 = score_w1 + res[0, -1, ids_w1].item()
+        if ids_w2 is not None:
+            score_w2 = score_w2 + res[1, -1, ids_w2].item()
+        add_tok_w1.append(ids_w1 if ids_w1 is not None else [0])
+        add_tok_w2.append(ids_w2 if ids_w2 is not None else [0])
 
     # Compute the score for w2
-    add_tok = []
-    score_w2 = 0
-    for ids in w2_ids:
-        tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
-        with torch.no_grad():
-            res = model(tens)
-            res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
-            res = torch.nn.functional.log_softmax(res,dim=-1)
-        score_w2 = score_w2 + res[0, -1, ids]
-        add_tok.append(ids)
+    # add_tok = []
+    # score_w2 = 0
+    # for ids in w2_ids:
+    #     tens = torch.LongTensor(input_ids + add_tok).unsqueeze(0).to(device)
+    #     with torch.no_grad():
+    #         res = model(tens)
+    #         res = res[..., 0:model.config.vocab_size] # Restrict to the vocabulary only
+    #         res = torch.nn.functional.log_softmax(res,dim=-1)
+    #     score_w2 = score_w2 + res[0, -1, ids]
+    #     add_tok.append(ids)
 
-    return [float(score_w1.item()), float(score_w2)]
+    return [float(score_w1), float(score_w2)]
 
 
 from collections import Counter
