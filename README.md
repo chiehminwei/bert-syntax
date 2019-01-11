@@ -46,3 +46,30 @@ python gen_marvin_tbl.py
 python gen_lgd_tbl.py
 python gen_gul_tbl.py
 ```
+
+# OpenAI GPT
+
+## Obtaining the results
+
+```bash
+pip install pytorch_pretrained_bert
+
+python eval_openai_gpt.py > results/lgd_results_openai_gpt.txt
+python eval_openai_gpt.py use_postfix > results/lgd_results_openai_gpt_use_postfix.txt
+python eval_openai_gpt.py marvin > results/marvin_results_openai_gpt.txt
+python eval_openai_gpt.py marvin use_postfix > results/marvin_results_openai_gpt_use_postfix.txt
+python eval_openai_gpt.py gul > results/gulordava_results_openai_gpt.txt
+python eval_openai_gpt.py gul use_postfix > results/gulordava_results_openai_gpt_use_postfix.txt
+```
+
+## Generating tables (for the PDF)
+
+```bash
+python gen_marvin_tbl_openai_gpt.py 
+python gen_lgd_tbl_openai_gpt.py
+python gen_gul_tbl_openai_gpt.py
+
+python gen_marvin_tbl_openai_gpt.py use_postfix
+python gen_lgd_tbl_openai_gpt.py use_postfix
+python gen_gul_tbl_openai_gpt.py use_postfix
+```

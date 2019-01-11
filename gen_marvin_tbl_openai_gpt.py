@@ -8,6 +8,8 @@ if "with_only_prefix" in sys.argv:
 
 if "no_split" in sys.argv:
     files.append(("openai_gpt", "results/marvin_results_openai_gpt_no_split.txt"))
+elif "use_postfix" in sys.argv:
+    files.append(("openai_gpt", "results/marvin_results_openai_gpt_use_postfix.txt"))
 else:
     files.append(("openai_gpt", "results/marvin_results_openai_gpt.txt"))
 
