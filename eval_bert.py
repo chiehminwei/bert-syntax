@@ -17,7 +17,7 @@ if 'only_prefix' in sys.argv:
 
 bert=BertForMaskedLM.from_pretrained(model_name)
 
-fname = '/Users/Jimmy/yeet/model.pt'
+fname = 'model.pt'
 state = torch.load(fname, map_location=device)
 bert.load_state_dict(state['state_dict'], strict=False)
 
