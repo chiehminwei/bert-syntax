@@ -6400,3 +6400,388 @@ True	1	include	-2.2342324256896973	includes	-2.4882891178131104	b'features of in
 False	1	include	-3.073387622833252	includes	-2.9695448875427246	b'features of interest ***mask*** the beaker-shaped font , the panelled roof to the nave , and the 17th century box pews , pulpit and gallery .'
 True	1	include	-2.3167357444763184	includes	-2.5125999450683594	b'features of interest ***mask*** the gables , gable dormers , impressive chimneys , long roofs , low eaves , porches and two story projecting bays .'
 True	1	include	-2.936631917953491	includes	-3.172891139984131	b'features of interest ***mask*** the old wagon roofs of the chancel , the norman font , the old screen to the north chancel chapel and the 16th century pulpit .'
+False	1	include	-2.7480382919311523	includes	-2.2532236576080322	b'features of interest ***mask*** two tiled floors from the later 13th century ( the largest in-situ tiled floors in any secular building in britain ) ; the 14th-century vaulted undercroft ; the five-storey elizabethan tower and a series of rooms created by the architect henry bell in 1700 .'
+False	1	include	-3.7426400184631348	includes	-3.479757308959961	b'features of the area ***mask*** albury racecourse , albury showground , pioneer cemetery , frederick park and 5 schools .'
+False	1	include	-3.6700470447540283	includes	-3.592216968536377	b'features of the arizona side ***mask*** the yuma quartermaster depot and yuma territorial prison .'
+True	1	include	-3.581785202026367	includes	-3.721106767654419	b'features of the building ***mask*** two sets of eight double-hung sash windows with arched frames , one set per floor .'
+False	1	include	-3.704192876815796	includes	-3.0279459953308105	b"features of the celebration ***mask*** a timeline of major events , a statement by chairman david north , detailed summaries of each year between 1998 and 2013 , and a testimonials page titled `` why i read the wsws '' ."
+False	1	include	-6.4860334396362305	includes	-5.483189105987549	b'features of the city ***mask*** fort kumasi ( built by in 1896 to replace an asante fort and now a museum ) and the kumasi hat museum .'
+True	1	include	-4.918437480926514	includes	-5.162143230438232	b'features of the coast ***mask*** spencer gulf and the eyre and yorke peninsulas that surround it .'
+False	1	include	-2.981006622314453	includes	-2.7009782791137695	b'features of the development ***mask*** a cultural centre for performing arts , a conference centre , leisure facilities , restaurants , cafes and island lifestyle specific retail .'
+False	2	include	-2.6673898696899414	includes	-2.4227190017700195	b"features of the evolving hawaiian regional style of the era ***mask*** numerous lanai and open spaces , double-pitched hipped roof ( `` dickey '' roof ) , and lushly landscaped grounds ."
+True	1	include	-2.3938522338867188	includes	-2.7249791622161865	b'features of the garden ***mask*** parapets and mounts , a fountain plot , a seat arbour , and bee bole .'
+False	1	include	-2.6811025142669678	includes	-2.3631975650787354	b"features of the park ***mask*** the ashton memorial , fountains , a butterfly house , a caf\xc3\xa9 , a children 's play area , the lancaster sundial on the site of what was once a bandstand , some sculptures and a small folly known as the temple ."
+False	1	include	-3.3675715923309326	includes	-3.03640079498291	b'features of the park ***mask*** two fresh-water lakes ( silver lake and pearce lake ) , a rambling section of the saugus river , and scenic views of boston , central massachusetts , and southern new hampshire from one of seven rocky hills .'
+True	1	include	-2.0554096698760986	includes	-2.2377405166625977	b'features of the phone ***mask*** a ti omap 3440 arm cortex a8 720 mhz cpu , 256 mb ram , wi-fi 802 .'
+False	1	include	-3.6115241050720215	includes	-3.103546619415283	b"features of the property ***mask*** the hotel tower , a casino , tahitian-style beach and swimming pool , a nightclub , six restaurants , three cocktail lounges , several retail stores , a spa , a poker room , and `` the joint '' , a music venue ."
+True	1	indicate	-3.652644157409668	indicates	-5.181519508361816	b'features of the skeleton ***mask*** that lystrosaurus moved with a semi-sprawling gait .'
+False	1	include	-3.6491732597351074	includes	-3.154348611831665	b'features of the square ***mask*** a water fountain with 235 in-ground jets , four light towers , two glass-encased restaurants , a grassy slope and granite walkways .'
+True	1	include	-2.216578722000122	includes	-2.459256649017334	b'features of the stadium ***mask*** recessed dugouts , a press box , batting cages , and irrigation .'
+False	1	include	-3.6149353981018066	includes	-2.544571876525879	b"features of the surrounding countryside ***mask*** cork oak trees , olive trees , wheat fields and cattle pasture , which together present a reasonable summary of the community 's principal sources of income ."
+False	1	include	-3.8360886573791504	includes	-3.7023348808288574	b'features of the venue ***mask*** a press box , pa system , concessions , offices , lights , a drainage system , dugouts , and a scoreboard .'
+False	1	include	-3.8060011863708496	includes	-3.1805710792541504	b'features of this exhibit ***mask*** large-scale fossils such as an allosaurus skeleton cast and the giant ground sloth fossil found during the construction of sea-tac international airport .'
+True	1	include	-3.3887457847595215	includes	-3.501380205154419	b'features of this location ***mask*** step farms , old houses , adjoining jungle , and water streams .'
+False	1	include	-3.206786632537842	includes	-2.36879301071167	b"features on the dvd release ***mask*** a commentary track featuring director john pasquin and producer brian reilly , a fight choreography featurette , four deleted scenes with optional commentary , and the film 's theatrical trailer ."
+True	1	include	-2.994685649871826	includes	-3.0691978931427	b'features on the mixtape ***mask*** pharrell williams , snoop dogg , lil wayne , mistah f .'
+False	1	include	-5.33148193359375	includes	-4.959971904754639	b'features on this album ***mask*** 50 cent , tony yayo , young buck , eminem , snoop dogg , nate dogg , and the game .'
+True	1	include	-4.582249164581299	includes	-4.687272548675537	b"features shown in the trailer ***mask*** tree houses , slip-n'-slides , spiral staircases , mid-life crises , family videos , proms , graduation , and pranks ."
+True	4	mean	-2.247182846069336	means	-2.4334139823913574	b"features such as a pin code request and a call barring service ***mask*** the users personal information wo n't be at risk should they accidentally leave their phone lying about ."
+True	2	require	-3.5180256366729736	requires	-3.755786895751953	b'features ( such as screen capture ) ***mask*** an application with ability of accepting binary data , such as netcat .'
+True	1	include	-2.3239712715148926	includes	-2.5241055488586426	b'features that can be incorporated in budgetroam ***mask*** call forwarding , call back , call through and conference .'
+False	1	include	-2.940497875213623	includes	-2.049753427505493	b'features that have been implemented throughout the vancouver airport to aid those with hearing loss ***mask*** a public address system that is designed to reduce noise pollution for those with hearing aids .'
+False	1	include	-3.5580031871795654	includes	-2.680582046508789	b'features within the part ***mask*** the valley of desolation , a region of boiling mud ponds and small geysers ; the boiling lake , titou gorge , and emerald pool .'
+True	2	include	-2.0839130878448486	includes	-2.290835380554199	b'federal agencies that are involved with port security ***mask*** the coast guard , u .'
+skipping governs govern bad wins
+True	1	appear	-4.594005107879639	appears	-5.299391269683838	b'fedorov clearly should not be editing that article ; his feelings about the subject ***mask*** to be interfering with his ability to write a well-sourced , neutral article in collaboration .'
+True	2	cause	-3.2552855014801025	causes	-4.5910468101501465	b'feelings of regret associated with depression also ***mask*** individuals to reflect and analyze past events in order to determine why they happened and how they could have been prevented .'
+skipping worry worries bad wins
+skipping permit permits bad wins
+False	2	appears	-7.681702136993408	appear	-6.013300895690918	b"feller 's coin-tossing constants are a set of numerical constants which describe asymptotic probabilities that in n independent tosses of a fair coin , no run of k consecutive heads ( or , equally , tails ) ***mask*** ."
+False	1	include	-4.033653259277344	includes	-3.939953327178955	b"female equivalents of the name david ***mask*** `` davida '' ( no longer in common usage ) and `` davina '' ."
+skipping exceed exceeds bad wins
+skipping prefer prefers bad wins
+skipping suffer suffers bad wins
+True	2	create	-3.469637155532837	creates	-4.620148181915283	b"females of the cephalopod genus argonauta ***mask*** a papery egg case which sometimes washes up on tropical beaches and is referred to as a `` paper nautilus '' ."
+True	1	show	-2.300180673599243	shows	-3.291710615158081	b'females of the subfamily generally ***mask*** paired spots on the abdomen , and the males often have enlarged chelicerae .'
+skipping lack lacks bad wins
+True	2	demand	-2.6081912517547607	demands	-3.9685044288635254	b'feminists , who once opposed state intervention as oppressive and patriarchal , now ***mask*** more coercive and intrusive measures to deal with child abuse and domestic violence .'
+False	1	reflects	-5.3173418045043945	reflect	-3.878166913986206	b'feminist writers have suggested that the less prejudicial usage of the old english sources ***mask*** more egalitarian notions of gender at the time .'
+False	1	needs	-2.693756103515625	need	-1.7693016529083252	b"fender 's blue butterfly , an endangered species , ***mask*** this subspecies to survive ."
+False	2	include	-3.0345399379730225	includes	-2.5863828659057617	b"fennelly 's contributions as historian of religion ***mask*** articles in the biblical archaeologist on religious ceremonies performed in the ancient city of persepolis ."
+False	1	runs	-2.1233980655670166	run	-1.326753854751587	b'fernandez won four most valuable player awards and a record 19 pba championships ( the equivalent of 6 championships in the nba as the pba ***mask*** three championships a year ) .'
+True	1	include	-2.1312129497528076	includes	-2.368178367614746	b'ferry links to mull from the mainland ***mask*** oban to craignure ( approx .'
+True	2	have	-2.045212745666504	has	-3.1753249168395996	b'fertilizer blends containing magnesium nitrate usually ***mask*** ammonium nitrate , calcium nitrate , potassium nitrate and micronutrients ; these blends are used in the greenhouse and hydroponics trade .'
+True	1	include	-2.1370792388916016	includes	-2.363926887512207	b'festivals during this date ***mask*** parade , programs and wreath-laying .'
+False	1	include	-3.2734861373901367	includes	-2.850233793258667	b'festivals that the band has played ***mask*** lollapalooza , sxsw , mountain jam , cmj music marathon , download festival , and festival dete de quebec .'
+True	2	have	-0.07323236763477325	has	-0.6190347671508789	b'fever-reducing drugs such as paracetamol and aspirin ***mask*** value in treating hyperthermia .'
+False	3	include	-2.9281930923461914	includes	-2.525944709777832	b'few advantages of the vomer flap procedure ***mask*** the relative simple execution compared to other palatoplasties , amount of surgery time , and similarity between the vomer tissue and the nasal mucosa .'
+True	1	exist	-2.058047294616699	exists	-6.355749607086182	b"few authoritative accounts of basayev 's life after abkhazia ***mask*** ."
+True	1	have	-0.2292441576719284	has	-0.8781064748764038	b'few languages on a worldwide scale ***mask*** as many diphthongs as english , though khmer language comes to mind as a counter-example .'
+True	2	remain	-5.966007709503174	remains	-6.249614238739014	b'few original willard lighthouse clocks have survived and it is estimated that about 200 to 300 examples of this highly sought-after collector timepiece ***mask*** .'
+True	3	use	-3.650101900100708	uses	-6.134844779968262	b"few other disciplines outside history deal with the time before year 1 , exceptions being dendrochronology , archaeology and geology , the latter two of which ***mask*** 'years before the present ' ."
+True	1	appear	-3.8851916790008545	appears	-4.3328776359558105	b'few other images of this actor ***mask*** to exist ; it is needed to identify the composer for educational purposes in an encyclopedia entry .'
+True	1	appear	-3.793504476547241	appears	-4.149551868438721	b'few other images of this actress ***mask*** to exist ; it is needed to identify the actress for educational purposes in an encyclopedia entry .'
+True	1	appear	-3.9659199714660645	appears	-4.881591320037842	b'few other images of this director ***mask*** to exist ; it is needed to identify the direcor for educational purposes in an encyclopedia entry .'
+True	1	appear	-2.82081937789917	appears	-3.6967082023620605	b'few other images of this physicist ***mask*** to exist ; it is needed to identify the figure for educational purposes in an encyclopedia entry .'
+True	2	have	-3.4832282066345215	has	-3.5082602500915527	b'few people have blended so completely into the multicultural tapestry of american society and yet have made such singular economic , political , social , scientific and cultural contributions to the growth and success of these united states as ***mask*** americans of german extraction .'
+True	1	make	-3.2126991748809814	makes	-3.5802342891693115	b'few people today ***mask*** the distinction , and the words are often used interchangeably .'
+True	1	exist	-2.1212680339813232	exists	-4.517144203186035	b'few records of homosexuality ***mask*** in egyptian mythology , the most well-known example of this occurs in the power-struggle between the sky-god horus , and his uncle set , the destructive god of the desert .'
+True	1	remain	-3.9394426345825195	remains	-4.049496173858643	b'few records of the palace ***mask*** to give a clear impression of its contents and layout .'
+True	1	manage	-5.424315452575684	manages	-6.651741027832031	b'few runners outside the top ten ***mask*** the ascent without stopping to walk .'
+True	1	exist	-1.4926775693893433	exists	-3.916327714920044	b'few signs of the track still ***mask*** .'
+False	1	suggests	-4.997912883758545	suggest	-4.284435272216797	b'few things are more disruptive to encyclopedia building than abusing the good faith of other editors by misrepresenting sources , and the history of lengthy blocks here strongly ***mask*** that anything short of an indef will not address the problem .'
+True	1	remain	-3.251870632171631	remains	-3.260275363922119	b'few traces of this dwelling ***mask*** .'
+skipping tend tends bad wins
+True	1	require	-3.587167501449585	requires	-3.649517059326172	b'fibres for example , ***mask*** rod grips around which fibre can be wound prior to straining .'
+skipping deserve deserves bad wins
+True	2	have	-0.19800995290279388	has	-0.7236768007278442	b'ficus cuttings , put in water at the same time , ***mask*** small roots .'
+skipping merge merges bad wins
+False	1	include	-3.4502460956573486	includes	-2.4577035903930664	b'fields of cooperation ***mask*** economic planning , communications , energy , ecology , industry , agriculture , commerce , foreign trade and investment , logistics , tourism , financing , science and technology , education , health , and culture .'
+True	2	grow	-2.9867470264434814	grows	-3.378244400024414	b'fields of green and orange lichen ***mask*** on a hill near the turnoff to alexander bay town .'
+False	1	include	-3.5986499786376953	includes	-2.9850423336029053	b'fields of study ***mask*** pure and applied science , medicine , agriculture , engineering and technology , and environmental science .'
+True	2	grow	-3.0600740909576416	grows	-3.333237648010254	b'fields of wild grass and brush now ***mask*** where the homes of evacuated residents formerly stood .'
+False	2	include	-3.207632064819336	includes	-2.3000075817108154	b'fields that may find an outlet in this journal ***mask*** public economics , urban economics , health economics , education , welfare and political institutions , law and economics , economic regulation , and environmental economics .'
+True	3	make	-3.41632342338562	makes	-4.0620856285095215	b'fifa world cup , for which nearly all countries in the world participate at the qualifying stage and 32 ***mask*** the finals ) .'
+False	1	represents	-6.775032997131348	represent	-3.520188093185425	b'fifi - federation of international football independents - 5 members - ***mask*** nations , dependencies and unrecognized states not affiliated to fifa .'
+False	2	connect	-6.724225997924805	connects	-5.3163743019104	b'fifty-six cables , arranged in two planes in a semi-fan configuration , support the -long main span , while another twenty-eight cables arranged in a single plane with a near-harp configuration ***mask*** the tower to the median of the anchor span .'
+True	2	match	-3.3681416511535645	matches	-4.011449813842773	b"fighters '' few aspects of the history of aviation ***mask*** the vitality , drama and scale of the world war ii fighter planes ."
+False	1	look	-4.780092239379883	looks	-4.631649017333984	b'fight scenes on stage usually ***mask*** fake and crappy , and so do action scenes in movies when filmed by a professional film crew not part of the movie shoot , like a documentary crew or a tv news crew .'
+True	1	have	-0.4558696150779724	has	-0.8552509546279907	b'figures of speech ***mask*** a problem with them .'
+True	1	occur	-2.539597272872925	occurs	-3.1035518646240234	b'figures similar to the european wild man ***mask*** worldwide from very early times .'
+True	1	sit	-3.3319828510284424	sits	-6.196775436401367	b"figures such as actress kathleen turner and the rabbi david saperstein ***mask*** on the board of people for the american way 's affiliate foundation , people for the american way foundation ."
+False	1	includes	-2.2788987159729004	include	-2.072401523590088	b"filament 's list of clients now ***mask*** tim mcgraw , zac brown band and luke bryan ."
+True	1	hold	-1.9202557802200317	holds	-3.0602188110351562	b'file folders in the facility ***mask*** hints to the security phrase .'
+True	1	include	-2.230339527130127	includes	-2.4876902103424072	b'file formats supported by the player ***mask*** mp3 , wma , wav , ogg vorbis , and asf .'
+False	1	feature	-3.667214870452881	features	-1.8945181369781494	b"files in ireland 's national archives , released to the public in 2006 , ***mask*** a request from maeve binchy to president cearbhall \xc3\x93 d\xc3\xa1laigh asking if he could `` receive '' her ."
+True	1	have	-0.5475818514823914	has	-0.9515694379806519	b'files in this category ***mask*** no information on their source .'
+True	1	have	-0.47468066215515137	has	-0.9410377740859985	b'files using the xyz format conventionally ***mask*** the .'
+True	1	include	-2.2453737258911133	includes	-2.480576753616333	b'file systems that follow an object-based architecture ***mask*** lustre and xtreemfs .'
+False	3	seem	-5.088616847991943	seems	-4.910604000091553	b"filial emotions , such as a human mother 's love for her offspring , ***mask*** to have evolved among early mammals ."
+True	3	have	-0.04455988109111786	has	-0.42524459958076477	b'filipino students , with a district average api score of 917 , also ***mask*** the highest api score in southern california for their ethnicity out of all k-12 districts .'
+False	1	brings	-4.393780708312988	bring	-4.32657527923584	b"filled with pulsating rhythms , and a colorful cast of characters , journey to lasta ***mask*** an inspiring story of the `` underdog '' and vividly paints an honest and vibrant portrayal of the immigrant experience in america ."
+True	1	include	-2.266700506210327	includes	-2.515058755874634	b'film appearances around this time ***mask*** princess caraboo and paradise road .'
+False	1	make	-4.601496696472168	makes	-4.471241474151611	b'filming took place over a three-day period , and devout fans of the film ***mask*** annual pilgrimages to the station and other select stops each year .'
+True	2	include	-3.391836166381836	includes	-3.415395975112915	b'filmmakers who have criticized the quality of this process ***mask*** james cameron , whose film avatar was created in 3d from the ground up and is largely credited with the revival of 3d , and michael bay .'
+False	1	feature	-4.251716136932373	features	-2.5376980304718018	b'films definitive of the genre usually ***mask*** farcical situations , a combination of slapstick with fast-paced repartee and show the struggle between economic classes .'
+False	1	include	-4.296026229858398	includes	-3.329875946044922	b'films in this category ***mask*** mirage ( 1965 ) with gregory peck , the third day ( 1965 ) starring george peppard , mister buddwing ( 1966 ) with james garner , and jigsaw ( 1968 ) , which is a remake of mirage .'
+True	1	include	-2.1991214752197266	includes	-2.433959484100342	b'films in this genre ***mask*** american pie 2 and even wedding crashers .'
+False	3	include	-3.3410592079162598	includes	-3.247004508972168	b'films in which the aria plays a significant role in the soundtrack ***mask*** the killing fields , new york stories , lobrutto , vincent ( 2008 ) .'
+True	1	receive	-3.6303164958953857	receives	-4.460722923278809	b'films made in the west , such as wild things and eyes wide shut , often ***mask*** the category iii rating .'
+False	2	feature	-2.898425340652466	features	-1.8286136388778687	b"films of him surfing in hawaii on the ken murray 's hollywood television show ***mask*** a muscular young bob cruising along comfortably on an old style long board ."
+True	1	represent	-1.7392189502716064	represents	-4.26142692565918	b'films of the first phase ***mask*** the original motivation and goals of cinema novo .'
+True	1	include	-3.724484920501709	includes	-3.809544324874878	b'films shot on location in glencolmcille ***mask*** the railway station man , 1992 , starring julie christie , donald sutherland and john lynch .'
+True	1	include	-2.0810294151306152	includes	-2.3101372718811035	b'films shown on the front cover ***mask*** grave of the fireflies , whisper of the heart , pom poko , and my neighbor totoro .'
+False	2	shows	-3.4666848182678223	show	-2.06404972076416	b'finally a cursory look at the users contributions ***mask*** a close similarilty in terms of topic interests between tropical wind and matthead .'
+False	1	increases	-4.898616313934326	increase	-3.7484328746795654	b'finally , as the number of recorded factors ***mask*** , the likelihood increases that at least one of the recorded factors will be highly correlated with the data output simply by chance .'
+False	2	explains	-2.2261877059936523	explain	-1.6422927379608154	b'finally , consider adding your website at the bottom of the list of external links rather than at the top ; the previous link about adding links to your own websites ***mask*** why adding new external links at the top is discouraged .'
+False	1	has	-0.41215482354164124	have	0.12092016637325287	b"finally , each `` family '' of traps ***mask*** only two upgrades , and are merely stronger variations of existing traps ."
+False	1	needs	-2.3805289268493652	need	-1.5407811403274536	b'finally , every so often a page with more than 5000 revisions ***mask*** to be deleted , requiring steward intervention ; most times the best way to get their attention is to leave a message on their noticeboard at meta .'
+True	3	remain	-2.8229289054870605	remains	-2.8537440299987793	b'finally , his pioneering views on veld rehabilitation and management ***mask*** important guidelines for the farming communities of south africa .'
+True	1	seems	-7.528234004974365	seem	-8.112040519714355	b'finally , if i get memtest86 to output its errors in badram format , and pass the defective memory addresses as a boot option to the kernel ( i have badram support compiled into the kernel ) , the frequency of the lockups i get ***mask*** to be reduced .'
+False	1	suggests	-4.743868827819824	suggest	-3.5540270805358887	b'finally , inspection of the references ***mask*** that these tend simply to mention the website in passing , and are not about the website per se .'
+True	1	operate	-3.284520149230957	operates	-4.226606845855713	b'finally , many cells in the kidney normally ***mask*** under hypoxic conditions .'
+skipping predict predicts bad wins
+True	1	exist	-1.308228611946106	exists	-3.634669303894043	b'finally , no reports on the match against dynamo kyiv ***mask*** , they lost only once in 1978 cup , but to chornomorets odesa .'
+False	1	leads	-4.816063404083252	lead	-3.3811120986938477	b'finally , on my rather low-resolution set-up , the fixed percentage width of the columns ***mask*** the grid reference external link icon to overlap the start of the ref ( s ) column .'
+False	1	contain	-3.253760814666748	contains	-2.774005889892578	b'finally , the archives of ravel-salmerange in the puy-de-d\xc3\xb4me department ***mask*** the birth certificate of philiber asper , born on 13 april 1732 .'
+False	1	contain	-3.0786526203155518	contains	-2.8075103759765625	b'finally , the emergency powers passed by the althing on the night of 6 october ***mask*** a measure ( art .'
+False	2	leaves	-2.5798823833465576	leave	-2.5547800064086914	b'finally the heavily-laden train , which is loaded with the diamonds and the residents , slowly ***mask*** the station under small arms fire .'
+False	1	represents	-3.8660762310028076	represent	-1.6890885829925537	b"finally , the intersection of the `` too cheap '' and `` too expensive '' lines ***mask*** an `` optimal price point '' or opp ."
+False	1	goes	-3.277663230895996	go	-2.591625928878784	b'finally , the large format of his canvases ***mask*** back to the origins of landscape painting with the horizontal extension [ 4 ] .'
+False	1	offers	-4.215347766876221	offer	-3.3867831230163574	b'finally , the old depot of aghios dionysios , consisting of about ten tracks , ***mask*** basic turntable and roundhouse facilities ; it is about long .'
+True	1	has	0.36253687739372253	have	0.3393479585647583	b"finally , the panel of judges ***mask*** the chance to ask questions of the first team , either to clarify a point , or to elicit a team 's viewpoint on an ethically aspect raised in their response ."
+False	1	releases	-3.6999154090881348	release	-1.3187280893325806	b"finally , while anderson 's laboratory at cmu maintains and ***mask*** the official act-r code , other alternative implementations of the theory have been made available ."
+skipping regulates regulate bad wins
+True	2	include	-2.2191078662872314	includes	-2.440087080001831	b'financial instruments involved in cash management ***mask*** money market funds , treasury bills , and certificates of deposit .'
+skipping survive survives bad wins
+True	1	provide	-1.58323073387146	provides	-3.0429584980010986	b'findings from their study ***mask*** mixed results however .'
+False	3	include	-4.550131797790527	includes	-4.067546844482422	b'findings in favour of the stress hypothesis ***mask*** a study in which distinctive room position affected occurrence of the disorder .'
+True	1	give	-1.0069984197616577	gives	-2.7789008617401123	b'findings with the inner ear in jbs ***mask*** explanation to the presence of bilateral sensorineural hearing loss in most patients affected by the disorder .'
+True	1	include	-2.6863362789154053	includes	-3.0113372802734375	b'finds at the site ***mask*** sections of city fortification walls and a glacis .'
+False	1	include	-4.235700607299805	includes	-3.6333000659942627	b'finds during the archaeological excavation ***mask*** for roman coins of the mid 4th century , as well as seven small hoards , the remains of wattle and daub walling , pottery , glass , part of a pewter plate , and grain .'
+False	1	offer	-4.328354835510254	offers	-3.6763997077941895	b'finds from another settlement at vis , near the vychegda river in russia , ***mask*** more details of life in a settlement of the boreal .'
+True	2	indicate	-5.010709762573242	indicates	-7.182262897491455	b'finds from surface survey ***mask*** human presence already in the neolithic period ; occupation continues throughout the bronze age and into the early iron age .'
+False	1	include	-2.632692337036133	includes	-2.3488729000091553	b'finds from this period ***mask*** a large , apparently public building , cultic-related finds , and a small collection of egyptiaca , including two egyptian hieratic inscriptions , both inscribed on locally-made vessels .'
+True	1	suggest	-3.2035176753997803	suggests	-4.521758556365967	b'finds in the area ***mask*** that people may have been living in the area as far back as the stone age .'
+True	3	suggest	-3.3253250122070312	suggests	-4.174687385559082	b'finds of metal-bearing slag in the forest above the village also ***mask*** that iron was being smelted here even in pre-roman times .'
+False	2	consists	-3.916206121444702	consist	-2.1710076332092285	b'fine institute homepagethe list of his publications ( 233 entries ) ***mask*** of papers on condensed matter theory , theory of elementary particles , and nuclei and plasmas .'
+True	1	give	-1.3627102375030518	gives	-2.418872833251953	b'finite groups of lie type ***mask*** the bulk of nonabelian finite simple groups .'
+False	3	comes	-3.0709481239318848	come	-0.05009341239929199	b'firmly i believe a reason like literally hundreds of thousands of porn websites ***mask*** only to destroy , with no relevant ground .'
+True	2	use	-0.9208673238754272	uses	-3.0088508129119873	b'firms that engage in yield management usually ***mask*** computer yield management systems to do so .'
+True	3	need	-1.8358004093170166	needs	-2.729663372039795	b'first 3-4 sentences of host city selection section ***mask*** a definite rejig .'
+False	1	appears	-6.8974432945251465	appear	-5.7114691734313965	b"first assembly and supposed associate of new york mobsters `` trigger '' mike coppola and frank erickson , ***mask*** before the new york crime commission ."
+True	1	make	-2.0423543453216553	makes	-2.8371429443359375	b'first battle of narvik , british destroyers and aircraft successfully ***mask*** a surprise attack against a larger german naval force .'
+False	1	include	-4.191965103149414	includes	-3.6354422569274902	b'first degrees in business ***mask*** bachelor of science in business and bachelor of science in entrepreneurship .'
+False	1	occurs	-5.208911895751953	occur	-4.539200305938721	b'first-hand transmission of rabies ***mask*** in animals by inhalation as rabies virus is an airborne microorganism .'
+False	1	has	-0.9703744649887085	have	-0.6294909119606018	b'first i would like to point out that all evidence per rules of spi ***mask*** to be verifable and public-this is clearly stated in spi guidance rules .'
+False	2	decides	-3.430521011352539	decide	-2.637087106704712	b'first league of serbia and montenegro where despite finishing 12th out of 16 , meaning out of relegation zone , the club direction for reasons of financial problems ***mask*** to leave top league competition .'
+False	1	leads	-6.101750373840332	lead	-4.487861633300781	b'firstly , the higher density of disturbed populations ***mask*** to greater rates of mating between neighbouring plants , resulting in more genetic structure and thus more effective selfing .'
+True	1	have	-0.9487319588661194	has	-1.4287805557250977	b'first of all , the products and the amount needed ***mask*** to be specified .'
+True	2	seem	-2.613725185394287	seems	-2.733290433883667	b'first of all , the sources for the article text mostly ***mask*** to come from sources affilaited with you .'
+False	1	includes	-2.855227470397949	include	-2.8353495597839355	b'first page of google results ***mask*** the independent and the bbc .'
+True	1	receive	-4.751321792602539	receives	-6.902719497680664	b'first place winners in each category ***mask*** a jersey and medal , while other finalists receive prizes donated by sponsors .'
+False	1	contain	-4.356290817260742	contains	-2.9314002990722656	b'first pressings of the album ***mask*** the complete intended listing of all 15 tracks on the cover , though actually the songs amor and aquellos ojos verdes were not released in the u .'
+True	2	appear	-3.131779909133911	appears	-4.21522855758667	b'first shops selling ice cream ***mask*** in north america .'
+False	1	wins	-6.065906524658203	win	-5.11782693862915	b"first team to four games ***mask*** the set , known in portuguese as a `` partida '' ."
+True	1	has	-1.1113483905792236	have	-1.1729646921157837	b"first , the crystal lattice of most magnetic materials ***mask*** magnetic anisotropy , which means it has an `` easy '' direction of magnetization , parallel to one of the crystal axes ."
+skipping prepares prepare bad wins
+True	2	makes	-3.02166748046875	make	-3.669658899307251	b'first , the panel was concerned that the fragmented structure , requiring decisions to be coordinated across up to 13 jurisdictions , ***mask*** it difficult for canadian securities regulators to react quickly and decisively to capital market events .'
+True	1	begin	-2.277850866317749	begins	-3.649880886077881	b'first three paragraphs ( in header ) all ***mask*** with the same word .'
+True	1	have	0.05052684247493744	has	-0.6556565761566162	b'first , two numbers a and b ***mask*** to be found such that f ( a ) and f ( b ) have opposite signs .'
+True	1	leave	-3.040271759033203	leaves	-3.2204017639160156	b'fir trees , especially the douglas fir , wil ***mask*** stumps in the ground when they die .'
+False	1	claims	-3.779067277908325	claim	-3.331939458847046	b'fiscal policy of governments usually ***mask*** to be concerned with identifying social and natural deficits on a less formal basis .'
+skipping tend tends bad wins
+False	2	include	-5.786409854888916	includes	-5.613221645355225	b'fish species caught , along the weed and reed-lined river at little thetford , ***mask*** roach , bream , rudd , perch and bleak .'
+True	1	include	-2.1881439685821533	includes	-2.6304359436035156	b'fish species found in the river ***mask*** chub , roach and bream .'
+False	1	include	-4.322920799255371	includes	-4.113536357879639	b'fish species in the lake ***mask*** landlocked atlantic salmon , lake trout , brook trout , rainbow smelt , four species of minnow , banded killifish , three-spined stickleback , pumpkinseed sunfish , and the american eel .'
+True	1	include	-3.1960902214050293	includes	-3.479663610458374	b'fish species in the lake ***mask*** walleye , yellow perch , northern pike , white sucker and burbot .'
+True	1	include	-2.3444418907165527	includes	-2.618114471435547	b'fish species in the river ***mask*** northern pike , walleye , smallmouth bass , and largemouth bass .'
+True	1	include	-3.33202862739563	includes	-3.4770336151123047	b'fish species within the lake ***mask*** rainbow , brook , and brown trout , bluegills , suckers , catfish , walleye , warmouth , and smallmouth bass .'
+True	1	serve	-2.105564832687378	serves	-2.96455454826355	b'five facilities in the city currently ***mask*** alcohol , four of which are hotels .'
+True	2	fall	-3.3313887119293213	falls	-3.5408897399902344	b'five members of a single family die when they ***mask*** from a ferris wheel car at an amusement park outside of busan , south korea .'
+False	1	remain	-2.8586158752441406	remains	-2.8406355381011963	b'five million acres of spectacular wild land still ***mask*** unprotected and vulnerable to development .'
+False	1	receives	-6.422107219696045	receive	-4.350900173187256	b'five nominees are presented and the individual with the most votes ***mask*** the award which is presented in conjunction with the final four .'
+skipping exceed exceeds bad wins
+False	1	asks	-4.376821517944336	ask	-2.795954465866089	b'five thirty show feature on how lucky certain names are , john ***mask*** the newsroom how they feel about their own names .'
+True	1	produce	-2.3629579544067383	produces	-5.865799903869629	b'five wineries in the area ***mask*** nearly of wine per year .'
+True	1	seem	-3.3002421855926514	seems	-3.419936180114746	b'five years have passed , and stories of substance ***mask*** to have dried up .'
+skipping dominate dominates bad wins
+False	2	remains	-3.2575595378875732	remain	-2.836151599884033	b'flag with 20 stars and 13 stripes ( it ***mask*** at 13 hereafter ) ( tennessee , ohio , louisiana , indiana , mississippi added ) .'
+True	3	need	-3.517461061477661	needs	-3.7505669593811035	b'flat tax implementations without the provision of a negative income tax actually ***mask*** an additional effort in order to avoid negative taxation .'
+True	1	include	-2.2377471923828125	includes	-2.48818302154541	b'flavors on the palate ***mask*** small , dark fruits like the current or blackberry .'
+True	2	appear	-3.560272693634033	appears	-3.636327028274536	b'flaws near or on the surface of a diamond also ***mask*** a rough patches and are usually removed when the diamond is being cut for sale .'
+False	1	have	-0.5853986740112305	has	-0.43422380089759827	b'fletcher and hurd assert that , based on the fact that unions employing the organizing model ***mask*** to reassign tasks and take time to train people , `` .'
+True	1	help	-1.5265687704086304	helps	-4.724807262420654	b'flight information display systems and signage ***mask*** the passenger navigate the airport .'
+True	1	stop	-2.076127052307129	stops	-4.009625434875488	b'flights between chile and mount pleasant airbase on the falkland islands ***mask*** at r\xc3\xado gallegos once a month .'
+True	3	continue	-2.851008892059326	continues	-5.6483964920043945	b'flights by the above named carrier originate in brisbane , australia , ***mask*** through honiara ( the capital of the solomon islands ) , and finally onto nauru .'
+True	1	include	-2.1194849014282227	includes	-2.3702025413513184	b'flimsy assertions of notability ***mask*** making documentaries which no longer exist and acting as himself .'
+True	2	leave	-3.79744291305542	leaves	-4.146170139312744	b'flood waters used to enter the agriculture land , ***mask*** their silt , which are quite fertile and go back to the river .'
+True	1	show	-2.5389859676361084	shows	-3.3919219970703125	b'floor plans for the building ***mask*** a large , centrally located space devoted to an architectural library and museum .'
+skipping rotate rotates bad wins
+True	1	create	-2.3340048789978027	creates	-4.611785411834717	b'flourishing numbers of deer typically ***mask*** more open woodland by eating growing saplings .'
+True	1	produce	-1.6952764987945557	produces	-3.988656520843506	b'flowers like the american pawpaw and dead horse arum ***mask*** these smells of death to attract the flies thereby spreading their pollen .'
+True	1	have	-0.21788303554058075	has	-0.8468685150146484	b'flowers of helianthus petiolaris ***mask*** flowers reminiscent of the flower of a common sunflower , helianthus annuus .'
+True	1	have	-0.49761438369750977	has	-0.9389925003051758	b'flowers of impatiens capensis ***mask*** these nectar spurs .'
+False	1	include	-2.866075277328491	includes	-2.840827703475952	b'flowers often seen along its route ***mask*** the pasque flower pulsatilla vulgaris , and six species of orchid including the lizard orchid .'
+False	1	has	-0.8177111148834229	have	-0.3273746371269226	b'flow in mantle wedges ***mask*** important effects on the thermal structure , overall mantle circulation and melt within the wedge .'
+skipping affect affects bad wins
+skipping occupy occupies bad wins
+False	1	changes	-5.436995029449463	change	-5.251327991485596	b'flying from edwards air force base , california , on its fifth flight , the first aircraft with variable-sweep wings , the bell x-5 , ***mask*** the sweep of its wings in flight for the first time .'
+skipping prevents prevent bad wins
+False	1	calls	-6.761576175689697	call	-4.792236804962158	b"fm 's show drivetime from 5pm to 7pm on weekday evenings , and a show on friday evenings from 10pm to 2am that he ***mask*** the rum shop ."
+True	1	run	-1.4146525859832764	runs	-2.3360307216644287	b'fm stations in mindanao while its affiliate , ditan communications ***mask*** the visayas fm stations .'
+False	1	include	-4.17743444442749	includes	-4.0965895652771	b'focuses of the system ***mask*** media management , search engine optimization , integration with social media , and development of revenue streams .'
+skipping survive survives bad wins
+skipping permits permit bad wins
+True	1	makes	-2.5098421573638916	make	-3.786205291748047	b'folding trimarans are particularly well suited as trailer sailers because their narrow width with folded floats ***mask*** them towable on the road whilst their wide beam with floats extended makes them stable and safe on the water .'
+False	2	include	-3.755739450454712	includes	-3.3431172370910645	b"foley 's awards for peacetime and combat ***mask*** the medal of honor , two distinguished service medals , the defense superior service medal , six legions of merit , five meritorious service medals , the bronze star medal , the purple heart and the combat infantryman 's badge ."
+False	1	include	-3.519360303878784	includes	-2.707629442214966	b'folk dances of british origin ***mask*** the square dance , descended from the quadrille , combined with the american innovation of a caller instructing the dancers .'
+True	1	include	-2.3540923595428467	includes	-2.615089178085327	b"folk names for the dance ***mask*** 'sleepy ' and 'lulling ' ."
+True	1	include	-2.2736644744873047	includes	-2.519082546234131	b'folk names of this bird ***mask*** devil-diver , hell-diver , pink-eyed diver , and water witch .'
+skipping think thinks bad wins
+False	1	seem	-4.844144344329834	seems	-4.63478422164917	b'folks , some time back i ***mask*** to recall there was an external tool which helped locate images uploaded under fair-use criteria but used outside the article namespace .'
+False	1	include	-4.050942420959473	includes	-3.7495737075805664	b'folk traditions of the area ***mask*** that of the moken sea-farers and various kinds of ritual tribal dance .'
+True	1	believe	-2.414787769317627	believes	-3.8614273071289062	b'followers of sunni islam and other minority shias ***mask*** that the mahdi has not yet been born , and therefore his exact identity is only known to allah .'
+True	1	believe	-3.778362989425659	believes	-5.506691932678223	b'followers of the religion ***mask*** in the christian god and recognize jesus christ as the savior of their salvation while simultaneously making appeasements to ancient palauan goddesses .'
+True	1	believe	-3.164736270904541	believes	-4.137691020965576	b"followers of the yoruba religion ***mask*** that \xc3\x8cy\xc3\xa1 nl\xc3\xa1 , or `` the great mother '' , is a communal spiritual force that gives them access to both the forces of nature and the wisdom of their ancestors ."
+True	1	believe	-3.0782456398010254	believes	-4.674002170562744	b'followers of the zuni religion ***mask*** that ahayuta are still defending all the peoples of the earth .'
+True	1	believe	-3.065145969390869	believes	-4.296441555023193	b'followers of this tradition ***mask*** that if , on the first thursday of rajab , they recite a special set of prayers , they will be rewarded by the fulfillment of their wishes .'
+True	3	works	-3.870112180709839	work	-4.073165416717529	b'following implementation of human rights reforms after the first free and fair presidential elections in the maldives , fom now ***mask*** to find and assist uk volunteers to work in the maldives on specific education , health and development projects .'
+True	1	cause	-1.4772484302520752	causes	-2.7396442890167236	b'following nitrogen starvation , increased intra-cellular concentrations of ammonia ***mask*** the de-uridylylation of glnk .'
+skipping propose proposes bad wins
+skipping organize organizes bad wins
+False	1	include	-4.51060676574707	includes	-2.751727819442749	b'following the partition of india , the bulk of the archaeological finds were inherited by pakistan where most of the ivc was based , and excavations from this time ***mask*** those led by sir mortimer wheeler in 1949 , archaeological adviser to the government of pakistan .'
+True	1	becomes	-3.3098912239074707	become	-4.2636027336120605	b'following the six-day war of 1967 , walters visited palestine with his parliamentary colleague ian gilmour , and in a joint statement they said `` the israeli attitude to the refugees ***mask*** clearer when their return rather than their expulsion is considered .'
+False	1	begins	-5.764721870422363	begin	-2.5063297748565674	b'following the trail of a helicopter overhead , a massive herd of walkers ***mask*** to form and migrates from the city to the countryside .'
+True	1	occurs	-3.8378536701202393	occur	-3.943396806716919	b'following this , notification of interested parties ***mask*** , of which the windows explorer shell is of primary interest .'
+skipping loses lose bad wins
+True	1	make	-2.0700385570526123	makes	-2.7448923587799072	b'fonts designed for readability ***mask*** it easier to distinguish one character from another .'
+True	1	include	-2.3810391426086426	includes	-2.5310027599334717	b'fonts that can display the character ***mask*** code2000 , doulos sil and charis sil .'
+False	1	include	-3.5264813899993896	includes	-3.1924729347229004	b"foods at the event ***mask*** chicago-style pizza , chicago hot dogs , barbecued ribs , italian beef , maxwell street polish sausage , eli 's cheesecake , and a variety of ethnic and regional foods ."
+True	1	have	-0.05633409321308136	has	-0.6121813058853149	b'foods from animal carcass ***mask*** the lowest carbohydrate but mammalian milk does contain lactose .'
+True	2	include	-2.6256251335144043	includes	-2.9614126682281494	b'foods that are believed to acquire a distinctive character from being prepared in a russian oven ***mask*** baked milk , pearl barley , mushrooms cooked in sour cream , or even a simple potato .'
+True	2	have	-0.32234692573547363	has	-0.8156993389129639	b'foods that have a low gl in a typical serving size almost always ***mask*** a low gi .'
+False	1	indicates	-5.084677696228027	indicate	-3.3880085945129395	b'football ; and the resulting development of football over the intervening two years ***mask*** a clear consensus .'
+False	2	offer	-2.9120655059814453	offers	-2.4820520877838135	b'football editors , notably christhedude , dweller and , with a half-term magnifying glass , kevin mce , all three of whom i ***mask*** my sincerest thanks on getting the article to where it is .'
+True	1	have	-0.2433774322271347	has	-0.8068563938140869	b'football shirts by contrast traditionally ***mask*** vertical stripes .'
+False	1	include	-2.7969539165496826	includes	-2.2354745864868164	b'footnotes for the directors section ***mask*** citations to the library of congress website , a reliable and independent source .'
+True	1	provide	-2.0439341068267822	provides	-2.8358590602874756	b'footpaths which lead up to the summit ***mask*** excellent 360 degree views over the shropshire plain and mid-wales .'
+skipping think thinks bad wins
+False	1	helps	-4.575475215911865	help	-1.6845566034317017	b'footy , where collaboration between users really ***mask*** resolve disputes and gain a consensus for developing articles .'
+False	1	goes	-1.703076720237732	go	-0.7467483878135681	b'for 2007 and 2008 , the official beneficiary of the anlene orchard mile has been the osteoporosis society of singapore ( the local chapter of the international osteoporosis foundation ) , where a portion of the proceeds ***mask*** to the society .'
+False	3	remain	-4.770339012145996	remains	-4.37382173538208	b'for a few seconds after the cessation of the scratch , the neural networks involved in the generation of the scratch reflex ***mask*** in a state of heightened sensitivity .'
+True	2	remain	-2.849841594696045	remains	-2.866295576095581	b'for a given hash table , the values of c1 and c2 ***mask*** constant .'
+True	1	see	-1.1615071296691895	sees	-2.4740679264068604	b'for a list of wikis , or websites using wiki software , ***mask*** list of wikis .'
+False	1	has	-1.9972072839736938	have	-1.5825496912002563	b'for all materials the refractive index for x-rays is close to 1 , hence a single conventional lens for x-rays ***mask*** an extremely long focal length ( for practical lens sizes , on the order of 1 mm ) .'
+False	3	have	-2.862290859222412	has	-2.375260829925537	b'for a long time it was only populated by a fishing and hunting people , the sami people , who have their own language and breed reindeer in northern sweden , and today ***mask*** special rights as a swedish minority group .'
+True	1	make	-1.8010882139205933	makes	-2.3473079204559326	b'for any lie algebra-valued 1-form on any smooth manifold , all the terms in this equation ***mask*** sense , so for any such form we can ask whether or not it satisfies this structural equation .'
+False	2	forms	-3.4870755672454834	form	-3.312631130218506	b'for any positive integer n , the space of all n-tuples of elements of f ***mask*** an n-dimensional vector space over f called coordinate space and denoted fn .'
+False	2	forms	-3.9833691120147705	form	-2.746397018432617	b'for any ring r and any natural number n , the set of all square n-by-n matrices with entries from r , ***mask*** a ring with matrix addition and matrix multiplication as operations .'
+True	1	seem	-2.7976300716400146	seems	-2.8688180446624756	b'for a time the advocates of jewish emancipation ***mask*** to have lost heart .'
+False	1	runs	-2.347201347351074	run	-1.2335472106933594	b"for a work that was disclosed during the author 's lifetime , the copyright term of 70 years thus ***mask*** from the year the author the author died ( or was rehabilitated , if the rehabilitation was posthumous ) , even if the work is published only later ."
+False	1	include	-3.7909996509552	includes	-3.389897346496582	b'forces on the stone ***mask*** the inward centripetal ( red ) force seen in both frames , as well as the geometric ( blue ) force seen in the spin frame .'
+True	3	provide	-1.5541177988052368	provides	-3.155440092086792	b'for civil society the assumptions subsumed under the theoretical approach of mediatization of communicative action ***mask*** many answers to questions related to civil society .'
+False	1	comes	-4.964230060577393	come	-2.973407745361328	b'for clarity , this thread that exposes rather than dissociates zs ***mask*** 11 minutes after his previous identity was disclosed on his ( now closed ) current request for adminship .'
+skipping tend tends bad wins
+False	1	make	-2.262364387512207	makes	-1.7837679386138916	b"for commutative rings , ideas of algebraic geometry ***mask*** it natural to take a `` small neighborhood '' of a ring to be the localization at a prime ideal ."
+True	2	change	-4.2211689949035645	changes	-5.286925315856934	b'for drugs which slowly undergo metabolism , changes in the unbound fraction of the drug directly ***mask*** the clearance of the drug .'
+True	1	refer	-2.245339870452881	refers	-3.5477335453033447	b'for dubai census 2000 figures for each community , ***mask*** to this link .'
+skipping composes compose bad wins
+True	1	remain	-2.9500913619995117	remains	-3.381685733795166	b'foregate street , although substantial sections of the track ***mask*** buried beneath the current road surface .'
+False	1	include	-3.879019260406494	includes	-3.541532039642334	b'foreign acts that performed on the festival ***mask*** ian brown , happy mondays , gary moore , dinosaur jr .'
+True	1	remains	-3.224546432495117	remain	-3.616426944732666	b'foreign aid from the united states , the european union , france , germany , the world bank and other donors ***mask*** important , both in terms of financing and in terms of technical assistance .'
+False	1	have	-0.6476470232009888	has	-0.19889113306999207	b'foreign citizens , having temporary residence , ***mask*** their cars registered with such plates .'
+skipping permit permits bad wins
+True	1	visit	-3.5158822536468506	visits	-4.4560160636901855	b'foreign guests of state usually ***mask*** the president and the asantehene .'
+True	1	include	-2.1728806495666504	includes	-2.5936057567596436	b'foreign units that have attended the school ***mask*** the royal canadian mounted police and the spanish foreign legion .'
+True	1	use	-1.136633038520813	uses	-2.5592000484466553	b'forensic scientist erin kenneally has argued that court challenges to digital evidence frequently ***mask*** the chewbacca defense per se , in that they present multiple alternative explanations of forensic evidence obtained from computers and internet providers to raise the reasonable doubt understood by a jury .'
+True	1	go	-3.4291481971740723	goes	-5.065441608428955	b'for entertainment purposes and an emotional thrill , many people with a feed voluntarily ***mask*** to sites on the feednet that induce malfunction .'
+False	1	include	-4.13970422744751	includes	-3.1432387828826904	b'forerunners of the movement ***mask*** camilo jos\xc3\xa9 vergara ; and yves marchand and romain meffre , french photographers who published the photo book entitled the ruins of detroit in 2010 , and a second book entitled gunkanjima in 2013 .'
+skipping wear wears bad wins
+skipping dominate dominates bad wins
+True	1	have	-0.8405013680458069	has	-1.5016430616378784	b'forests with fluctuating moisture ***mask*** an canopy , an understory of microphyllous and thorny deciduous species , and a forest floor covered in herbaceous geophytes .'
+skipping select selects bad wins
+True	1	has	-1.2259725332260132	have	-1.3707478046417236	b'for example a chapel at mals in south tyrol ***mask*** two fresco donor figures from before 881 , one lay and the other of a tonsured cleric holding a model building .'
+False	1	reveals	-4.001580715179443	reveal	-3.0527148246765137	b'for example , a google books search by nigeria france relations ***mask*** that there are plenty of secondary sources .'
+True	1	have	0.04777432978153229	has	-0.5598640441894531	b'for example , all borel sets of a polish space ***mask*** the property of baire and the perfect set property .'
+False	1	makes	-2.341902256011963	make	-1.8245444297790527	b'for example , all masonic ritual for the first three degrees ***mask*** use of the architectural symbolism of the tools of the medieval operative stonemason .'
+skipping quotes quote bad wins
+False	1	creates	-4.549149513244629	create	-2.0641462802886963	b'for example , a public works program to build roads ***mask*** no wealth simply by virtue of building the road .'
+False	2	requires	-5.738027095794678	require	-5.420319557189941	b'for example , a task that requires 10 minutes using a radeon hd 3850 gpu or 5 minutes using an radeon hd 4850 gpu , ***mask*** 6 hours using one core of an amd phenom ii processor at 2 .'
+False	1	has	-0.5837074518203735	have	-0.3948967456817627	b'for example , a yard broken into inches ***mask*** finer granularity than a yard broken into feet .'
+True	1	include	-3.8835506439208984	includes	-4.435849666595459	b'for example , candidates for the list ***mask*** david attenborough , winner of the 2006 bbc living icons contest .'
+True	1	appear	-3.704266309738159	appears	-3.774672746658325	b"for example , certain `` higher spin gauge theories '' on anti-de sitter space ***mask*** to be dual to a conformal field theory with o ( n ) symmetry ."
+skipping examine examines bad wins
+True	2	sound	-1.9491143226623535	sounds	-3.5493035316467285	b'for example , demanding more money to show up which if accepted by the venue , results in a breach of contract , leaving him legally ***mask*** to send imposters or even skip it altogether .'
+False	1	fall	-3.585142135620117	falls	-2.345782518386841	b'for example , discussions in the united states about defining working poverty often ***mask*** on different sides based mainly on the two-party distinction .'
+True	1	indicate	-3.5453391075134277	indicates	-3.982499599456787	b'for example , documents on file at the united states army center of military history in washington , dc , ***mask*** that when the company was activated in 1975 by replacing the 5th infantry detachment , it was authorized 4 officers and 108 enlisted soldiers .'
+True	1	starts	-3.967787504196167	start	-4.181948661804199	b'for example , embryonal development in placental mammals ***mask*** with cleavage of the zygote into eight uncommited cells , which then form a ball ( morula ) .'
+True	2	operate	-6.246013164520264	operates	-7.301231384277344	b'for example , european countries with socialized medicine in the broader sense , such as germany and holland , ***mask*** in this way .'
+True	1	continue	-1.4124422073364258	continues	-2.9384407997131348	b'for example , factions within the pakistan government ***mask*** to support taliban terrorists in afghanistan .'
+True	4	have	0.10264591872692108	has	-0.5100264549255371	b'for example , fringe theories in science depart significantly from mainstream science and ***mask*** little or no scientific support .'
+skipping stem stems bad wins
+True	1	have	0.125868022441864	has	0.02665916085243225	b'for example , if the example networks from the preceding section ***mask*** an additional identical t-section added to the left-hand side , then the networks remain topologically symmetric and antimetric .'
+True	2	enter	-1.3656229972839355	enters	-4.220635414123535	b'for example , if there are four players left and three make their second miss in one round , the fourth advances to the championship round and the other three ***mask*** the tiebreaker .'
+False	1	runs	-2.2282700538635254	run	-1.239537000656128	b"for example , i 'm guessing that the number of tags ***mask*** to about 200 ."
+skipping fail fails bad wins
+skipping depends depend bad wins
+True	2	require	-2.675020217895508	requires	-3.064615249633789	b'for example , instruments in the violin family ***mask*** periodic disassembly for repairs and maintenance .'
+True	1	have	-1.3457958698272705	has	-1.6357568502426147	b"for example , many missions such as the `` hidden parts '' mission in shantomia ***mask*** several versions of its chart to confuse and challenge the player ."
+True	1	have	0.003167882561683655	has	-0.6050845384597778	b'for example , men with a 47 , xxy karyotype ***mask*** a single barr body , whereas women with a 47 , xxx karyotype have two barr bodies .'
+False	1	seem	-2.921987771987915	seems	-2.6329684257507324	b'for example , money clips with an ankh ***mask*** to be very common , and the [ [ bond street tube station ] ] in london is decorated with an ankh .'
+True	1	use	-1.4603608846664429	uses	-3.2542738914489746	b'for example , most shows today ***mask*** soundtracks comprised of songs from various performing artists , to fill their episodes , as opposed to an actual score that is created by a single composer for each episode in the series .'
+True	2	have	-0.25108766555786133	has	-0.9092509746551514	b'for example noradrenergic inputs arising from the locus coeruleus ***mask*** important regulatory effects upon crh levels .'
+True	1	has	0.04264381527900696	have	-0.24810247123241425	b'for example , one group of gates ***mask*** no logical connection to the rest of the circuit , yet is crucial to its function .'
+False	1	reaches	-4.563508033752441	reach	-3.1352696418762207	b'for example , only between january and april 2012 the number of hits ***mask*** about 1 , 530 , 000 , of which nearly 260 , 000 outside it .'
+skipping cites cite bad wins
+True	1	have	-0.08607836067676544	has	-0.3185853660106659	b'for example , people with down syndrome ***mask*** a significantly increased risk of developing forms of acute leukemia ( especially acute myeloid leukemia ) , and fanconi anemia is a risk factor for developing acute myeloid leukemia .'
+skipping depends depend bad wins
+False	1	contain	-3.114528179168701	contains	-2.639982223510742	b'for example , plants of the genus eucalyptus ***mask*** flammable oils that encourage fire and hard sclerophyll leaves to resist heat and drought , ensuring their dominance over less fire-tolerant species .'
+True	1	say	-1.5734659433364868	says	-2.15313720703125	b'for example , residents of pa\xc3\xa7os de ferreira , a municipality in northern portugal , ***mask*** that after the private company ags .'
+False	1	provide	-2.9748342037200928	provides	-2.8676295280456543	b'for example , software libraries for linear algebra , such as the blas , typically ***mask*** options to specify that certain matrices are to be interpreted in transposed order to avoid the necessity of data movement .'
+skipping rely relies bad wins
+True	2	include	-2.165510892868042	includes	-2.328385829925537	b'for example , some measures of ethnic identity development ***mask*** measures of behaviors , such as eating ethnic food or participating in customs specific to an ethnic group .'
+True	1	define	-3.2865796089172363	defines	-4.782907009124756	b"for example , some references , and wolfram 's mathematica software and wolfram alpha , ***mask*** the complete elliptic integral of the first kind in terms of the parameter m , instead of the elliptic modulus k ."
+True	1	have	0.026788190007209778	has	-0.5424197912216187	b'for example , storage roots of sweet potato ***mask*** secondary growth but are not woody .'
+True	2	produce	-1.6305383443832397	produces	-5.538153648376465	b'for example , striking workers in manufacturing or mining ***mask*** a product which must be transported .'
+False	1	include	-3.381596088409424	includes	-2.5602030754089355	b"for example , subsections of the featured article tropical storm chantal ( 2001 ) ***mask*** `` meteorological history , '' `` preparations , '' and `` impact ."
+skipping tend tends bad wins
+True	1	have	-1.1284160614013672	has	-1.5463677644729614	b'for example , suppose objects of the vehicle class ***mask*** a name and the ability to perform various actions , such as drive to work and deliver construction materials .'
+True	1	have	-0.9086789488792419	has	-1.0389667749404907	b'for example , the 10 mock theta functions of order 5 found by ramanujan fall into two groups of 5 , where all the functions in each group ***mask*** the same shadow ( up to multiplication by a constant ) .'
+False	1	causes	-3.2312023639678955	cause	-1.070599913597107	b'for example , the addition of inorganic salts ***mask*** a moderate linear increase in the surface tension of aqueous solutions ( ca .'
+False	1	varies	-6.368197441101074	vary	-5.136713027954102	b'for example , the distance between the eyes ***mask*** less than other features such as the size of the nose .'
+True	1	go	-1.7385978698730469	goes	-4.122169017791748	b'for example , the first two links in the lead both ***mask*** to university of florida , and the second two go to history of the university of florida .'
+True	2	seem	-4.20112943649292	seems	-4.557729244232178	b'for example , the forbes article already linked there ; others easily found by google like washington post 2006-03-09 ( the links at the bottom of the article ***mask*** to have expired ) .'
+skipping promote promotes bad wins
+False	1	speak	-5.5262651443481445	speaks	-5.2898335456848145	b'for example , the people of ado local government area do not speak exactly the same dialect with the people of ijero local government area , while the people of ikole area ***mask*** something different from the people of ikere area .'
+False	2	refers	-4.575904846191406	refer	-4.479814052581787	b"for example , the phrase in the declaration of independence `` for depriving us in many cases , of the benefits of trial by jury '' ***mask*** to the practice of parliament giving the admiralty courts jurisdiction to enforce the stamp act in the american colonies ."
+False	1	require	-2.9978184700012207	requires	-2.6269142627716064	b'for example , the pressure placed on academics to seek external research grants , and be rated on their ability to do so , has been criticised on the basis that different fields of research ***mask*** different levels of funding , and external grants may not even be necessary .'
+True	2	define	-3.8733835220336914	defines	-6.804742336273193	b'for example , the principal axes of the inertia tensor ***mask*** the ellipsoid representing the moment of inertia .'
+True	3	include	-3.0840773582458496	includes	-3.3336706161499023	b'for example , the risks affecting the return of a bond portfolio ***mask*** the overall level of the yield curve , the slope of the yield curve , and the credit spreads of the bonds in the portfolio .'
+False	1	suggests	-4.968801021575928	suggest	-3.420606851577759	b'for example , the sentence introducing mechanisms ***mask*** that there are only three , due to transformation of frames of reference .'
+False	1	has	-0.7303496599197388	have	-0.1977732926607132	b'for example , the set of natural numbers ***mask*** no maximum , though it has a minimum .'
+True	1	include	-3.7997782230377197	includes	-3.877747058868408	b'for example , the solutions for microsoft exchange monitoring ***mask*** performance counter , event log , mapi , and exchange application specific monitor types .'
+False	1	uses	-2.574019193649292	use	-0.7219635248184204	b'for example , the thai currency , stamps , etc still ***mask*** images that are probably 40-50 years old .'
+True	2	reach	-4.8380537033081055	reaches	-5.840091705322266	b"for example , the un geoscheme does not recognize a `` north asia , '' but problematic differences in point of view ***mask*** down to the country level elsewhere as well ."
+False	1	covers	-5.248683452606201	cover	-4.872269630432129	b'for example , the united states military history task force of the military history wikiproject deals with the military history of a specific country ; and the warcraft task force of the video games wikiproject ***mask*** a single game series .'
+False	1	indicates	-4.518896579742432	indicate	-3.1084413528442383	b'for example , the word brother in english-speaking societies ***mask*** a son of the same parent ; thus , english-speaking societies use the word brother as a descriptive term .'
+False	1	grow	-4.549783229827881	grows	-3.569934844970703	b'for example , to test the hypotheses that cities with a diversified economy ***mask*** at a faster rate then those with a more specialized economic base , cities must first be classified so that diversified and specialized cities can be differentiated .'
+True	1	show	-1.0295093059539795	shows	-2.157316207885742	b"for example , turner 's paintings of the castle ***mask*** it perched far higher up on the hill than it actually is ."
+False	1	causes	-3.9702038764953613	cause	-2.9480183124542236	b'for example , use of high-speed boats ***mask*** noise pollution , and conflicts with other uses such as boat trips , yachting , canoeing , and swimming .'
+skipping demonstrate demonstrates bad wins
+skipping tend tends bad wins
+True	2	have	0.0023572295904159546	has	-0.614925742149353	b'for example , words with -ess or -enne ***mask*** a feminine association because they derive from french words which have a feminine grammatical gender .'
+True	2	have	-0.6770544648170471	has	-0.8767895698547363	b'for future reference , please note that arguments based solely in notability by association ***mask*** no basis in policy and may be ( in this case , were ) discounted .'
+False	2	makes	-3.6836631298065186	make	-2.777364730834961	b'forgive another pun but we cater for all sorts , although the standard of contributions for articles such as this often ***mask*** me think that we should review that .'
+skipping fit fits bad wins
+True	1	go	-3.262742519378662	goes	-3.6601552963256836	b'for good luck people wash their face with holy water in the morning , their chests at noon , and their feet in the evening before they ***mask*** to bed .'
+True	1	represent	-2.618360757827759	represents	-5.893164157867432	b'for hauerwas , the niebuhrs are important figures in part because the flaws in their thinking ***mask*** the same flaws which are endemic to much of modern christianity , with the church often being shaped more by the culture of liberal democracy than the message of jesus .'
+False	2	takes	-4.280280113220215	take	-1.9753355979919434	b'for inoculation to be successful it is critical that a threat ( motivation for resistance ) is imposed upon these existing ideas and refutational preemption ( ability to cognitively build defenses to potential counterarguments ) ***mask*** place after the inoculation .'
+True	2	make	-2.3744494915008545	makes	-2.436880111694336	b'for instance , chemical additives in the pavement mix ***mask*** the pavement more weather resistant , grooving and other surface treatments improve resistance to skidding and hydroplaning , and joint seals which were once tar are now made of low maintenance neoprene .'
+skipping express expresses bad wins
+True	2	join	-7.155529975891113	joins	-7.170324325561523	b"for instance , one of his earliest ming era novels titled the story of king yue who restored the song dynasty ( \xe5\xa4\xa7\xe5\xae\x8b\xe4\xb8\xad\xe8\x88\x88\xe5\xb2\xb3\xe7\x8e\x8b\xe5\x82\xb3 ) states that after the jurchen armies invaded china , young heroes in yue 's village suggest that they ***mask*** the bandits in the mountains ."
+True	1	suggest	-2.7654762268066406	suggests	-3.753647804260254	b'for instance , scholarly studies and anecdotal evidence ***mask*** that jurors conflate reasonable doubt with the civil standard of preponderance of the evidence .'
+True	2	have	-2.004762887954712	has	-3.2390434741973877	b'for instance , small ions such as sodium and potassium pass freely , while larger plasma proteins , such as hemoglobin and albumin ***mask*** practically no permeability at all .'
+True	1	show	-3.334528684616089	shows	-4.112319469451904	b'for instance some ocean cores directly of the western coast of africa ***mask*** a mix of freshwater lake and river diatom species .'
+True	2	argue	-6.502627849578857	argues	-7.645046710968018	b'for instance , some scholars of the ottoman empire and ancient egypt ***mask*** that ottoman and egyptian architectural traditions have long been falsely claimed and praised as persian or arab , and greco-roman , innovations , respectively .'
+True	1	use	-1.7505836486816406	uses	-3.7021522521972656	b"for instance , the conversations between octavian and the marschallin in the first act ***mask*** the familiar `` you '' but switch back and forth between more formal speech ( ) and the familiar , as well as the intermediate ( and now obsolete ) ."
+True	1	appears	-3.27972674369812	appear	-3.3446123600006104	b'for instance , the criticism section pertaining to fundamental rights ***mask*** to be more comprehensive here than at the main article page ( which seems counter-intuitive to me ) and the information presented is slightly different .'
+True	2	appear	-2.7255468368530273	appears	-3.377859115600586	b'for instance , the metal atoms in a radio transmitter ***mask*** to transfer energy continuously .'
+False	1	appears	-3.5282137393951416	appear	-2.7674880027770996	b'for instance , the old form , with 11 strokes , now ***mask*** as , with 12 strokes , in the new form .'
+False	1	happens	-7.555967330932617	happen	-4.233575344085693	b'for instance , the sequence of two letters l ***mask*** once .'
+True	2	places	-1.5022157430648804	place	-2.3371453285217285	b'for instance , though no formal studies have been conducted yet , it is generally acknowledged within the church that the rising number of parents who work as overseas filipino workers ( ofws ) ***mask*** significant stress in the maintenance of relationships among members within families .'
+True	1	have	-0.258073091506958	has	-0.7949161529541016	b'for instance , towns in the world only ***mask*** to exist .'
+False	1	makes	-3.5940213203430176	make	-3.516807794570923	b'for it is a peculiarity of humans , in contrast to the other animals , to have perception of good and bad , just and unjust , and the like ; and the community in these things ***mask*** a household or city [ polis ] .'
+False	1	seems	-5.0439581871032715	seem	-4.621536731719971	b'for klee , the german classic painter of the cubism , the world music became his companion , possibly even a part of his art ; the composition , written in notes , ***mask*** to be not dissimilar .'
+False	1	include	-2.5388238430023193	includes	-1.7636146545410156	b'for lutherans , the means of grace ***mask*** the gospel ( both written and proclaimed ) , as well as the sacrament of holy baptism , and the sacrament of the eucharist .'
+True	1	define	-2.7157223224639893	defines	-4.717511177062988	b'formally , in the presence of an orientation , one may identify n-forms with densities on a manifold ; densities in turn ***mask*** a measure , and thus can be integrated .'
+False	1	include	-3.4488518238067627	includes	-3.2892088890075684	b'formal portraits from his pre-war service with the royal family ***mask*** a portrait of prince arthur of connaught and princess alexandra , taken at their wedding , and two portraits of the young prince john , both in 1913 .'
+False	1	begins	-3.77486515045166	begin	-2.2334718704223633	b'formation of these structures ***mask*** with a swelling of the neural tube in a pattern specified by hox genes .'
+True	1	appear	-3.035630226135254	appears	-3.767937660217285	b'formations of cambrian and devonian rock also ***mask*** in small amounts in the u .'
+False	1	aims	-4.014678478240967	aim	-3.5881524085998535	b"formative fun 's range of products ***mask*** to entertain , inspire and educate children ."
+skipping owes owe bad wins
+False	1	include	-3.8679490089416504	includes	-3.2661144733428955	b"former anchors at the mall ***mask*** hess 's , which was replaced by the bon-ton ; george 's iga , which was replaced by king 's supermarket which was later remodeled and renamed weis markets ; and j ."
+True	2	include	-2.1197996139526367	includes	-2.34785532951355	b'former choir directors at the choir school ***mask*** donald bryant , donald g .'
+True	1	include	-2.086298942565918	includes	-2.417208433151245	b'former commanders of the division ***mask*** soeharto .'
+True	1	include	-2.139674186706543	includes	-2.4298415184020996	b'former curators of note ***mask*** charles s .'
+False	1	include	-4.707393646240234	includes	-4.463837146759033	b'former editors of the newspaper ***mask*** paul vallely ( the independent ) and nicholas witchell ( bbc news ) .'

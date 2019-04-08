@@ -21,7 +21,7 @@ fname = 'model.pt'
 state = torch.load(fname, map_location=device)
 bert.load_state_dict(state['state_dict'], strict=False)
 
-tokenizer=tokenization.BertTokenizer.from_pretrained(model_name)
+tokenizer=tokenization.BertTokenizer.from_pretrained(model_name, do_lower_case=False)
 bert.eval()
 bert.to(device)
 
