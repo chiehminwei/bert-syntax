@@ -6,7 +6,7 @@ import csv
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-model_name = 'bert-large-uncased'
+model_name = 'bert-base-multilingual-cased'
 if 'base' in sys.argv: model_name = 'bert-base-uncased'
 print("using model:",model_name,file=sys.stderr)
 
@@ -16,6 +16,11 @@ if 'only_prefix' in sys.argv:
     print("We take only the prefix", file=sys.stderr)
 
 bert=BertForMaskedLM.from_pretrained(model_name)
+
+fname = '/Users/Jimmy/yeet/model.pt'
+state = torch.load(fname, map_location=device)
+bert.load_state_dict(state['state_dict'], strict=False)
+
 tokenizer=tokenization.BertTokenizer.from_pretrained(model_name)
 bert.eval()
 bert.to(device)
