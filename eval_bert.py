@@ -17,9 +17,10 @@ if 'only_prefix' in sys.argv:
 
 bert=BertForMaskedLM.from_pretrained(model_name)
 
-fname = 'model.pt'
-state = torch.load(fname, map_location=device)
-bert.load_state_dict(state['state_dict'], strict=False)
+if model_name == 'bert-base-multilingual-cased':
+    fname = 'model.pt'
+    state = torch.load(fname, map_location=device)
+    bert.load_state_dict(state['state_dict'], strict=False)
 
 tokenizer=tokenization.BertTokenizer.from_pretrained(model_name, do_lower_case=False)
 bert.eval()
