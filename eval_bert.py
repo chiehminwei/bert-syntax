@@ -19,7 +19,7 @@ if 'only_prefix' in sys.argv:
 
 bert=BertForMaskedLM.from_pretrained(model_name)
 
-if not 'base' in sys.argv: model_name :
+if not 'base' in sys.argv:
     fname = 'model.pt'
     state = torch.load(fname, map_location=device)
     bert.load_state_dict(state['state_dict'], strict=False)
